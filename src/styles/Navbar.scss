@@ -1,0 +1,32 @@
+div.nav {
+  color: white;
+
+  ul {
+    border: 2px solid green;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 1rem;
+    color: white;
+
+  }
+  li {
+    margin: 0;
+    list-style: none;
+    color: white;
+
+    a {
+
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
