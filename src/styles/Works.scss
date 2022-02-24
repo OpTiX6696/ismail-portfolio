@@ -1,8 +1,40 @@
 
 
 
-.projects-container {
+// font-family: 'Abel', sans-serif;
+// font-family: 'Dancing Script', cursive;
+// font-family: 'Gideon Roman', cursive;
+// font-family: 'Imperial Script', cursive;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Lora', serif;
+// font-family: 'Mea Culpa', cursive;
+// font-family: 'Moon Dance', cursive;
+// font-family: 'Oooh Baby', cursive;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Redressed', cursive;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+// font-family: 'Waterfall', cursive;
+
+
+div.works {
+  background-color: #aed275;
   margin: 0;
+  padding-top: 20px;
+
+  
+}
+
+div.section-header {
+  border: 2px solid red;
+  line-height: 1.5rem;
+  padding: 10px;
+  
+  
+}
+
+.projects-container {
+  margin-top: 0;
   // border: 5px solid green;
   height: 60vh;
   margin-bottom: 80px;
@@ -11,7 +43,7 @@
 .project_card {
   // border: 2px solid red;
   text-align: center;
-  background: #afd275;
+  // background: #aed275;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -31,6 +63,7 @@
 
     backdrop-filter: blur(2px) saturate(180%);
     -webkit-backdrop-filter: blur(1px) saturate(200%);
+    // background-color: inherit;
     background-color: #afd275;
     border-radius: 25px;
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
