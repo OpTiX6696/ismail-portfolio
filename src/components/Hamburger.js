@@ -19,7 +19,7 @@ function Hamburger() {
       </div>
 
       <div className={`mobile-nav ${isOpen ? "open" : "close"}`}>
-        <ul onClick={handleClick}>
+        <ul className='nav-list' onClick={handleClick}>
         {NavItemsData.map((item, index) => {
           return (
             <li key={index} >
