@@ -20,23 +20,23 @@ const NavItemsData = [
     bgColor: "green"
     },
   {
-    title: "Services",
+    title: "Works",
     path: "#services",
     icon: <MdIcons.MdMiscellaneousServices />,
     bgColor: "orange"
   },
-  {
-    title: "Results",
-    path: "#results",
-    icon: <GiIcons.GiDart />,
-    bgColor: "blue"
-  },
-  {
-    title: "Ideas",
-    path: "#ideas",
-    icon: <FaIcons.FaIdeal />,
-    bgColor: "indigo"
-  },
+  // {
+  //   title: "Results",
+  //   path: "#results",
+  //   icon: <GiIcons.GiDart />,
+  //   bgColor: "blue"
+  // },
+  // {
+  //   title: "Ideas",
+  //   path: "#ideas",
+  //   icon: <FaIcons.FaIdeal />,
+  //   bgColor: "indigo"
+  // },
   {
     title: "About",
     path: "#about",
