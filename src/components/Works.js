@@ -22,7 +22,7 @@ import { Pagination, Navigation } from "swiper";
 
 const Works = () => {
   return (
-    <div className="works">
+    <div id="my_works" className="works">
 
       <div className="section-header">
         <h3>My Projects</h3>
@@ -32,7 +32,6 @@ const Works = () => {
 
 
       <Swiper
-        style={{color: 'aliceblue'}}
         slidesPerView={1}
         spaceBetween={0}
         loop={true}

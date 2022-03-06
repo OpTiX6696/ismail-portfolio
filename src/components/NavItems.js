@@ -21,7 +21,7 @@ const NavItemsData = [
     },
   {
     title: "Works",
-    path: "#services",
+    path: "#my_works",
     icon: <MdIcons.MdMiscellaneousServices />,
     bgColor: "orange"
   },
