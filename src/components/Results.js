@@ -1,9 +1,11 @@
 import React, { Component }  from 'react';
 
 
-function Results() {
+const Results = () => {
   return (
-  <div>This is Results page</div>);
+  <div id="results">
+    This is Results page
+  </div>);
 }
 
 export default Results;

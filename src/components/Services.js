@@ -1,7 +1,10 @@
-import React, { Component }  from 'react';
-function Services() {
+import React  from 'react';
+
+
+
+const Services = () => {
   return (
-  <div>
+  <div id="services">
     Services Page
   </div>);
 }

@@ -26,12 +26,13 @@ const Works = () => {
 
       <div className="section-header">
         <h3>My Projects</h3>
-        <p>Here are some of my projects</p>
+        <p>Some of my projects</p>
       </div>
       
 
 
       <Swiper
+        style={{color: 'aliceblue'}}
         slidesPerView={1}
         spaceBetween={0}
         loop={true}

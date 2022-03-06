@@ -1,9 +1,9 @@
-import React, { Component }  from 'react';
+import React  from 'react';
 import '../styles/Hamburger.scss';
 import NavItemsData from './NavItems';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
-function Hamburger() {
+const Hamburger = () => {
 
   const [isOpen, setIsOpen] = React.useState(false);
   const handleClick = (e) => setIsOpen(!isOpen);
@@ -23,10 +23,10 @@ function Hamburger() {
         {NavItemsData.map((item, index) => {
           return (
             <li key={index} >
-              <Link to={item.path} className="nav-item">
+              <a href={item.path} className="nav-item">
                 <div className="item_icon">{item.icon}</div>
                 <span>{item.title}</span>
-              </Link>
+              </a>
             </li>
           ) 
         }) }

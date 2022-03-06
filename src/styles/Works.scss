@@ -1,4 +1,4 @@
-
+@import 'StyleVars.scss';
 
 
 // font-family: 'Abel', sans-serif;
@@ -16,26 +16,25 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Waterfall', cursive;
 
-
+// .swiper {
+//   color: aliceblue !important;
+// }
 div.works {
-  background-color: #aed275;
+  background-color: #31c4d8;
   margin: 0;
   padding-top: 20px;
-
-  
+  color: aliceblue;
 }
 
-div.section-header {
-  border: 2px solid red;
-  line-height: 1.5rem;
-  padding: 10px;
-  
-  
-}
+// div.section-header {
+//   // border: 2px solid red;
+//   text-transform: uppercase;
+//   line-height: 1.5rem;
+//   padding: 10px;  
+// }
 
 .projects-container {
   margin-top: 0;
-  // border: 5px solid green;
   height: 60vh;
   margin-bottom: 80px;
 }
@@ -43,10 +42,11 @@ div.section-header {
 .project_card {
   // border: 2px solid red;
   text-align: center;
-  // background: #aed275;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Lora', sans-serif;
+
 
 
 
@@ -58,17 +58,11 @@ div.section-header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: black;
-
-
-    backdrop-filter: blur(2px) saturate(180%);
-    -webkit-backdrop-filter: blur(1px) saturate(200%);
-    // background-color: inherit;
-    background-color: #afd275;
     border-radius: 25px;
-    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-      -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-    border-radius: 50px;
+    background: #31c4d8;
+    box-shadow:  9px 9px 8px #2babbc,
+             -9px -9px 8px #37ddf4;
+
 
 
     .project_title {
@@ -78,7 +72,8 @@ div.section-header {
       width: 100%;
       padding: 10px 0;
       font-weight: bold;
-      border-bottom: 4px solid rgb(46, 148, 243);
+      border-bottom: 4px solid aliceblue;
+      // border-bottom: 4px solid rgb(46, 148, 243);
       // rgb(46, 148, 243)
       margin: 0;
     }
@@ -109,16 +104,17 @@ div.section-header {
         padding: 5px;
         align-self: center;
         transition: all 0.2s ease-in-out;
-        color: rgb(46, 148, 243);
+        // color: rgb(46, 148, 243);
+        color: aliceblue;
 
         
         &:nth-child(1) {
-          border-bottom-left-radius: 50px;
+          border-bottom-left-radius: 25px;
         }
 
 
         &:nth-child(2) {
-          border-bottom-right-radius: 50px;
+          border-bottom-right-radius: 25px;
         }
 
 
