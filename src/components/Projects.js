@@ -7,17 +7,31 @@ const projects = [{
   repo: 'https://github.com/OpTiX6696/Weather-App'
 },
 {
-  title: 'Sea Water Level Predictor',
-  description: 'A python code that uses sea water level data from previous years to predict future sea water level and returns a graph of year against sea water level.',
-  project_url: '#',
-  repo: 'https://github.com/OpTiX6696/Sea_Level_Predictor'
+  title: 'Mag-Ben Automotive',
+  description: 'An auto-service website where customers can order the services of an auto-repair and diagnostics company and assess the services that the company renders..',
+  project_url: 'https://optix6696.github.io/Mag-Ben-Automotive-Website/dist/',
+  repo: 'https://github.com/OpTiX6696/Mag-Ben-Automotive-Website'
 },
 {
-  title: 'QUIZAPP',
-  description: 'A quiz app that lets players choose from different sections. Players are ranked on a leaderboard, based on their scores.',
-  project_url: '#',
-  repo: 'https://github.com/OpTiX6696/QuizApp'
+  title: 'OptiMaths',
+  description: 'A simple javascript calculator',
+  project_url: 'https://optix6696.github.io/Simple_Calculator/',
+  repo: 'https://github.com/OpTiX6696/Simple_Calculator'
+},
+{
+  title: 'OptiTime',
+  description: 'A simple countdown clock',
+  project_url: 'https://optix6696.github.io/Countdown-Clock/',
+  repo: 'https://github.com/OpTiX6696/Countdown-Clock'
 }
+
+// {
+//   title: 'QUIZAPP',
+//   description: 'A quiz app that lets players choose from different sections. Players are ranked on a leaderboard, based on their scores.',
+//   project_url: '#',
+//   repo: 'https://github.com/OpTiX6696/QuizApp'
+// }
+
 // {
 //   title: '',
 //   description: '',
