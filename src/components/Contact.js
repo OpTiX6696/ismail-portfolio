@@ -4,7 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import { ContactItems } from './ContactItems';
 
 
-function Contact() {
+const Contact = () => {
 
   return (
     <div id="contact">
