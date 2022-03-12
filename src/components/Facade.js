@@ -1,5 +1,5 @@
 import React  from 'react';
-import '../styles/Home.scss';
+import '../styles/Facade.scss';
 // import {Link} from 'react-router-dom';
 
 
@@ -14,7 +14,7 @@ const Facade = () => {
         <p>is the name.</p>
         <h4>Creating awesome web experiences</h4>
         <p>is the goal.</p>
-        <button className='facade_contact_btn'>Contact Me</button>
+        <a href='#contact' className='facade_contact_btn'>Contact Me</a>
       </div>     
     </div>
   )

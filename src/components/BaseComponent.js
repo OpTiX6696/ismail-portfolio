@@ -5,6 +5,7 @@ import Facade from './Facade';
 import Services from './Services';
 import Results from './Results';
 import Ideas from './Ideas';
+import Contact from './Contact';
 
 
 const BaseComponent = () => {
@@ -16,6 +17,7 @@ const BaseComponent = () => {
       <Facade />
       <About />
       <Works />
+      <Contact />
     </div>
   )
 }

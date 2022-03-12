@@ -21,7 +21,6 @@ function About() {
             {/* <p>Some of my projects</p> */}
         </div>
 
-
         <div className="abt_card">
           <p>
             I am a graduate of mechanical engineering from one of the most prestigious universities in Nigeria. I am passionate about developing sustainable solutions to the littlest problems. I am interested in talks that involve clean air, clean energy and technology-driven solutions.
@@ -41,10 +40,12 @@ function About() {
           <button onClick={handleClick}>{showMore ? "Show Less": "Show More"}</button>
         </div>        
       </div>
-    </>
-    
-    )
-  
+    </>  
+  )
 }
 
+
+
 export default About;
+
+

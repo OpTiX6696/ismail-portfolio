@@ -1,0 +1,97 @@
+
+@import 'StyleVars.scss';
+
+div#contact {
+  // border: 2px solid red;
+  padding: 20px 0 50px;
+  margin-bottom: 80px;
+  color: #096975;
+  position: relative;
+
+
+  &::before, &::after {
+    content: "";
+    position: absolute;      
+  }
+
+  &::after {
+    background-color: rgba(201, 238, 67, 0.445);
+    bottom: 10px;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    height: 60px;
+    width:60px;
+  }
+
+  &::before {
+    background-color: rgba(245, 96, 237, 0.445);
+    top: 10px;
+    left: 0;
+    border-radius: 40px;
+    height: 60px;
+    width: 60px;
+  }
+}
+
+div.contact_details {
+  // border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 20px;
+
+  div.contact_detail {
+    // border: 2px solid green;
+    width: 40%;
+
+
+      span.contactLogo {
+        font-size: 1.2rem;
+        transform: scale(1.35);
+      }
+
+
+    }
+  }
+
+
+
+a.contact_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: $buttonPaddings;
+  border: 4px solid #096975;
+  color: #096975;
+  // font-family: 'Lora', serif;
+  font-family: $buttonFontFamily;
+  font-size: 1.3rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  transition: all 0.5s ease-out;
+
+
+  &:hover {
+    background-color: #096975;
+    color: white;
+    transition: all 0.5s ease-out;
+  }
+
+}
+
+div.github {
+  // border: 2px solid red;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  div.section-header {
+    // border: 2px solid red;
+    padding: 0;
+    margin-bottom: 15px;
+
+  }
+}

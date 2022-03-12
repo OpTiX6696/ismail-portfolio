@@ -17,6 +17,10 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Waterfall', cursive;
 
+a {
+  text-decoration: none;
+}
+
 div.facade {
   // border: 2px solid green;
   width: 100%;
@@ -55,16 +59,18 @@ div.facade {
     }
   }
 
-  button.facade_contact_btn {
-    background-color: transparent;
+  a.facade_contact_btn {
+    // border: 2px solid red;
     color: inherit;
-    margin-top: 10vh;
+    margin-top: 180px;
     font-size: $buttonFontSize;
     padding: $buttonPaddings;
     border: $buttonBorder;
     transition: all 0.5s ease-out;
     font-weight: $buttonFontWeight;
     font-family: $buttonFontFamily;
+    margin-top: 180px;
+
 
     
 
