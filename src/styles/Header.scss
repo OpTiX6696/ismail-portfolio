@@ -7,13 +7,18 @@ div.header {
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.247);
+  // background-color: rgba(0, 0, 0, 0.247);
   padding: 0 15px;
   position: fixed;
   top: 0;
   width: 100vw;
   height: 55px;
-  z-index: 2;
+  z-index: 2; 
+  transition: all 0.5s ease-out;
 
- 
+}
+div.header.scrolled {
+  background-color: #096975;
+  transition: all 0.5s ease-out;
+
 }
