@@ -1,22 +1,5 @@
 @import 'StyleVars.scss';
 
-
-
-
-// font-family: 'Abel', sans-serif;
-// font-family: 'Dancing Script', cursive;
-// font-family: 'Gideon Roman', cursive;
-// font-family: 'Imperial Script', cursive;...
-// font-family: 'Lato', sans-serif;...
-// font-family: 'Lora', serif;.....
-// font-family: 'Mea Culpa', cursive;
-// font-family: 'Moon Dance', cursive;
-// font-family: 'Oooh Baby', cursive;
-// font-family: 'Open Sans', sans-serif;
-// font-family: 'Redressed', cursive;
-// font-family: 'Ubuntu', sans-serif;
-// font-family: 'Waterfall', cursive;
-
 a {
   text-decoration: none;
 }
@@ -50,7 +33,8 @@ div.facade {
   p {
     // border: 2px solid red;
     font-size: 1.5rem;
-    color: rgb(202, 196, 196);
+    color: white;
+    // color: rgb(202, 196, 196);
     line-height: 130%;
     font-family: 'Imperial Script', cursive;
 
