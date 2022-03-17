@@ -1,29 +1,36 @@
 @import 'StyleVars.scss';
 
 
-// font-family: 'Abel', sans-serif;
-// font-family: 'Dancing Script', cursive;
-// font-family: 'Gideon Roman', cursive;
-// font-family: 'Imperial Script', cursive;
-// font-family: 'Lato', sans-serif;
-// font-family: 'Lora', serif;
-// font-family: 'Mea Culpa', cursive;
-// font-family: 'Moon Dance', cursive;
-// font-family: 'Oooh Baby', cursive;
-// font-family: 'Open Sans', sans-serif;
-// font-family: 'Redressed', cursive;
-// font-family: 'Roboto', sans-serif;
-// font-family: 'Ubuntu', sans-serif;
-// font-family: 'Waterfall', cursive;
+
 
 // .swiper {
 //   color: aliceblue !important;
 // }
+
+// :root {
+//   --swiper-theme-color: #fff;
+// }
+
+
+// #my_works > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.mySwiper.projects-container.swiper-backface-hidden > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+//   color: white;
+//   // background-color: white;
+// }
+
+div.swiper-button-next, div.swiper-button-prev {
+  color: white;
+}
+
+span.swiper-pagination-bullet {
+  background-color: white;
+
+}
 div.works {
   background-color: #31c4d8;
+  background-color: #096975;
   margin: 0;
   padding-top: 20px;
-  color: aliceblue;
+  color: white;
 }
 
 .projects-container {
@@ -56,6 +63,10 @@ div.works {
     box-shadow:  9px 9px 8px #2babbc,
              -9px -9px 8px #37ddf4;
 
+    background: #096975;
+    box-shadow:  9px 9px 8px #02606d,
+             -9px -9px 8px #0c808f;
+
 
 
     .project_title {
@@ -65,7 +76,7 @@ div.works {
       width: 100%;
       padding: 10px 0;
       font-weight: bold;
-      border-bottom: 4px solid aliceblue;
+      border-bottom: 4px solid white;
       // border-bottom: 4px solid rgb(46, 148, 243);
       // rgb(46, 148, 243)
       margin: 0;
@@ -98,7 +109,7 @@ div.works {
         align-self: center;
         transition: all 0.2s ease-in-out;
         // color: rgb(46, 148, 243);
-        color: aliceblue;
+        color: white;
 
         
         &:nth-child(1) {
