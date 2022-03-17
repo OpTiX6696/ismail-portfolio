@@ -51,6 +51,15 @@ div.hamburger-menu {
   }
 }
 
+@media screen and (min-width: 601px) {
+  
+  div.hamburger-menu {
+    display: none;
+    // position: absolute;
+  }
+  
+}
+
 //////////
 
 div.hamburger-menu.open {
@@ -60,6 +69,14 @@ div.hamburger-menu.open {
     background: transparent;
   }
 }
+
+// @media screen and (min-width: 601px) {
+  
+//   div.hamburger-menu.close, div.hamburger-menu.open{
+//     transform: translateX(0px);  
+//   }
+  
+// }
 
 
 div.hamburger-menu.open {
@@ -73,6 +90,9 @@ div.hamburger-menu.open {
   }
   
 }
+
+
+
 
 
 div.mobile-nav {
@@ -123,35 +143,98 @@ div.mobile-nav {
         text-decoration: none;
         color: white;
         transition: all 0.2s ease-in-out;
-        font-size: 1.2rem;
-
+        font-family: 'Lora', serif;
 
         &:hover {
           background-color: rgba(0, 0, 0, 0.747);
           transition: all 0.2s ease-in-out;
         }
+        div.item_icon {
+          font-size: 1.2rem;
+        }     
 
-
-        // div.item_icon {
-        //   color: white;
-        // }        
-
-        span {
+        div.item_title {
           // border: 2px solid green;
           word-spacing: 1px;
-          font-family: 'Lora', serif;
           font-size: 1rem;
-
         }
-      }
-
-      
+      }    
     }
   }
 }
 
+@media screen and (min-width: 601px) {
+  
+  div.mobile-nav {
+    // border: 2px solid red;
+    top: 0;
+    position: absolute;
+    background-color: transparent;
+    height: max-content;
+    backdrop-filter: blur(0px) saturate(100%);
+    -webkit-backdrop-filter: blur(0px) saturate(100%);
+    
+
+    ul.nav-list {
+      // border: 2px solid red;
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      padding-right: 30px;
+      height: 55px;
+      gap: 10px;
+      // width: max-content;
+
+      li {
+        width: max-content;
+        
+        // border: 4px solid black;
+        // border: none;
+  
+        &:first-child {
+          border-top: none;
+        }
+
+
+        a {
+          // border: 2px solid green;
+          padding: $buttonPaddings;
+          border: $buttonBorder;
+          font-family: $buttonFontFamily;
+
+          div.item_icon {
+            display: none;
+          }
+  
+  
+          &:hover {
+            background-color: white;
+            transition: all 0.2s ease-in-out;
+            color: black;
+          }       
+  
+          div.item_title {
+            font-size: $buttonFontSize;
+  
+          }
+        }    
+      }
+
+    }
+  }
+  
+}
+
+
+
 .mobile-nav.close {
   transform: translateX(105vw);
+}
+
+@media screen and (min-width: 601px) {
+  .mobile-nav.close {
+    transform: translateX(0px);
+  }
 }
 
 
@@ -195,6 +278,15 @@ div.nav_btns {
       }
     }
   }
+}
+
+
+@media screen and (min-width: 601px) {
+
+  div.nav_btns {
+    display: none;
+  }
+  
 }
 
 

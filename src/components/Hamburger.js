@@ -25,7 +25,7 @@ const Hamburger = () => {
             <li key={index} >
               <a href={item.path} className="nav-item">
                 <div className="item_icon">{item.icon}</div>
-                <span>{item.title}</span>
+                <div className='item_title'>{item.title}</div>
               </a>
             </li>
           ) 
