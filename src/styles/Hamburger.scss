@@ -245,7 +245,6 @@ div.nav_btns {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  // background-color: white;
   margin-top: 40px;
   // flex-direction: row;
 
@@ -285,6 +284,40 @@ div.nav_btns {
 
   div.nav_btns {
     display: none;
+  }
+  
+}
+
+@media screen and (min-width: 1020px) {
+
+  div.nav_btns {
+    // border: 2px solid red;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: fixed;
+    top: 0;
+    right: 40%;
+    margin: 0 auto;
+
+    div.btn {
+      // border: 2px solid yellow;
+      margin: 0 auto;
+      padding: 0;
+
+      p.btn_text {
+        margin-bottom: 0;
+      }
+    }
+
+
+
+    p.info {
+      display: none;
+    }
   }
   
 }

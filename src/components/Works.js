@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React, { useEffect, useState }  from 'react';
 import projects from "./Projects";
 import '../styles/Works.scss';
 import * as AiIcons from "react-icons/ai";
@@ -21,7 +21,24 @@ import { Pagination, Navigation } from "swiper";
 
 
 const Works = () => {
+
+  console.log(`width is ${window.screen.width}`);
+  const initialScreenWidth = window.screen.width;
+  const [viewsPerSlide, setViewsPerSlide] = useState(initialScreenWidth <= 601 ? 1 : 2);
+  
+  const handleScreenSizeChange = () => {
+    const screenSize = window.innerWidth;
+    // console.log(`event screen size ${screenSize}`);
+    setViewsPerSlide(screenSize > 601 ? 2 : 1);
+    return screenSize
+  }
+
+  window.addEventListener('resize', handleScreenSizeChange);
+
+
+ 
   return (
+
     <div id="my_works" className="works">
 
       <div className="section-header">
@@ -29,10 +46,8 @@ const Works = () => {
         <p>Some of my projects</p>
       </div>
       
-
-
       <Swiper
-        slidesPerView={1}
+        slidesPerView={viewsPerSlide}
         spaceBetween={0}
         loop={true}
         pagination={{
@@ -43,7 +58,7 @@ const Works = () => {
         className="mySwiper projects-container"
       >
 
-        {/* <div className=''> */}
+        <div className='projects-container'>
 
           {projects.map((project, index) => {
           return (
@@ -65,7 +80,7 @@ const Works = () => {
             </SwiperSlide>    
               )
             })}
-        {/* </div> */}
+        </div>
       </Swiper>
     </div>
   );

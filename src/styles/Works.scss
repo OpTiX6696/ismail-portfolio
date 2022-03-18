@@ -1,22 +1,6 @@
 @import 'StyleVars.scss';
 
 
-
-
-// .swiper {
-//   color: aliceblue !important;
-// }
-
-// :root {
-//   --swiper-theme-color: #fff;
-// }
-
-
-// #my_works > div.swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.mySwiper.projects-container.swiper-backface-hidden > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-//   color: white;
-//   // background-color: white;
-// }
-
 div.swiper-button-next, div.swiper-button-prev {
   color: white;
 }
@@ -29,44 +13,44 @@ div.works {
   background-color: #31c4d8;
   background-color: #096975;
   margin: 0;
-  padding-top: 20px;
+  padding: 20px;
   color: white;
 }
 
-.projects-container {
-  margin-top: 0;
-  height: 60vh;
-  // margin-bottom: 10px;
+div.projects-container {
+  // border: 2px solid red;
+  // margin: 0 0 20px 0;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  height: 70vh;
+  // min-height: max-content;
 }
+
+
 
 .project_card {
   // border: 2px solid red;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
+  height: 60vh;
   font-family: 'Lora', sans-serif;
-
-
-
 
   div.project_card-container {
     // border: 2px solid green;
-    height: 80%;
+    min-height: 80%;
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     border-radius: 25px;
-    background: #31c4d8;
-    box-shadow:  9px 9px 8px #2babbc,
-             -9px -9px 8px #37ddf4;
-
     background: #096975;
     box-shadow:  9px 9px 8px #02606d,
              -9px -9px 8px #0c808f;
-
 
 
     .project_title {
@@ -133,3 +117,27 @@ div.works {
 }
 
 
+@media screen and (min-width: 601px) {
+
+  // .projects-container {
+  //   margin: 0 30%;
+  // }
+  div.works {
+    padding: 20px 0;
+  }
+
+  .project_card {
+
+
+    // div.project_card-container {
+    //   border: 5px solid green;
+    //   // width: 70%;
+    // }
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  div.works {
+    padding: 20px 20%;
+  }
+}

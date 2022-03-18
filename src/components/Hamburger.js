@@ -1,11 +1,11 @@
-import React  from 'react';
+import React, {useState} from 'react';
 import '../styles/Hamburger.scss';
 import NavItemsData from './NavItems';
 // import {Link} from 'react-router-dom';
 
 const Hamburger = () => {
 
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const handleClick = (e) => setIsOpen(!isOpen);
 
   return (

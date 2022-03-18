@@ -11,7 +11,6 @@ const Header = () => {
   const [scrolled, setScrolled] = useState(false);
 
   const handleScroll = (e) => {
-
     e.currentTarget.scrollY > 200 ? setScrolled(true) : setScrolled(false);
   }
 

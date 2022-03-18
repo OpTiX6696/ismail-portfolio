@@ -23,11 +23,6 @@ const App = () => {
         <BaseComponent />
       </div>
 
-      {/* <Switch>
-
-        <Route path='/' component={BaseComponent} exact />
-
-      </Switch> */}
       
     </Router>
   );
