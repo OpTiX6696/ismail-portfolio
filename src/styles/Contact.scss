@@ -8,7 +8,6 @@ div#contact {
   color: #096975;
   position: relative;
 
-
   &::before, &::after {
     content: "";
     position: absolute;      
@@ -33,6 +32,54 @@ div#contact {
   }
 }
 
+div.all_contacts {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+
+  &::before, &::after {
+    content: "";
+    position: absolute;      
+  }
+
+  &::after {
+    background-color: rgba(67, 135, 238, 0.445);
+    bottom: -30px;
+    left: -40px;
+    border-bottom-right-radius: 40px;
+    height: 80px;
+    width:80px;
+  }
+
+  &::before {
+    background-color: rgba(231, 131, 74, 0.445);
+    top: -50px;
+    right: -30px;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+  }
+
+
+
+}
+
+@media screen and (min-width: 601px) {
+
+  div.all_contacts {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+
+  div.all_contacts {
+    width: 50%;
+  }
+}
+
+
+
 div.contact_details {
   // border: 2px solid green;
   display: flex;
@@ -41,20 +88,18 @@ div.contact_details {
   flex-wrap: wrap;
   gap: 20px;
   padding-top: 20px;
+  margin: 0 auto;
 
   div.contact_detail {
     // border: 2px solid green;
     width: 40%;
 
-
       span.contactLogo {
         font-size: 1.2rem;
         transform: scale(1.35);
       }
-
-
-    }
   }
+}
 
 
 
@@ -84,7 +129,7 @@ a.contact_item {
 
 div.github {
   // border: 2px solid red;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding: 50px 0;
 
@@ -92,6 +137,10 @@ div.github {
     // border: 2px solid red;
     padding: 0;
     margin-bottom: 15px;
+  }
 
+  a {
+    width: 70%;
+    margin: 0 auto;
   }
 }
