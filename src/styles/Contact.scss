@@ -17,9 +17,9 @@ div#contact {
     background-color: rgba(201, 238, 67, 0.445);
     bottom: 10px;
     right: 0;
-    border-bottom-left-radius: 30px;
-    height: 60px;
-    width:60px;
+    // border-bottom-left-radius: 30px;
+    height: 45px;
+    width:60vw;
   }
 
   &::before {
@@ -45,10 +45,10 @@ div.all_contacts {
   &::after {
     background-color: rgba(67, 135, 238, 0.445);
     bottom: -30px;
-    left: -40px;
-    border-bottom-right-radius: 40px;
-    height: 80px;
-    width:80px;
+    left: -7vw;
+    // border-bottom-right-radius: 40px;
+    height: 20px;
+    width: 60vh;
   }
 
   &::before {

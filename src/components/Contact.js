@@ -18,6 +18,7 @@ const Contact = () => {
               <div key={index} className={`contact_detail ${contactItem.title}`}>
                 <a
                   target="_blank"
+                  rel="noreferrer"
                   className="contact_item"
                   href={contactItem.reference}
                 >
@@ -39,6 +40,7 @@ const Contact = () => {
           <a
             href="https://github.com/OpTiX6696"
             target="_blank"
+            rel="noreferrer"
             className="contact_item"
           >
             <AiIcons.AiOutlineGithub />
