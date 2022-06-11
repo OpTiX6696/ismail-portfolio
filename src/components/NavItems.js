@@ -3,7 +3,7 @@
 
 import * as AiIcons from "react-icons/ai";
 import * as MdIcons from "react-icons/md";
-import * as GiIcons from "react-icons/gi";
+// import * as GiIcons from "react-icons/gi";
 import * as FaIcons from "react-icons/fa";
 import * as SiIcons from "react-icons/si";
 
@@ -48,7 +48,13 @@ const NavItemsData = [
     path: "#contact",
     icon: <FaIcons.FaPhoneAlt />,
     bgColor: "red"
-  }
+  },
+  {
+  title: "Tools",
+  path: "#tools",
+  icon: <FaIcons.FaTools />,
+  bgColor: "indigo"
+}
 ]
 
 

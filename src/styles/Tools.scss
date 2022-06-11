@@ -17,14 +17,14 @@ div#tools {
     width:80px;
   }
 
-  &::before {
-    background-color: rgba(230, 227, 57, 0.445);
-    top: 10px;
-    left: 0;
-    border-radius: 45px;
-    height: 90px;
-    width: 90px;
-  }
+  // &::before {
+  //   // background-color: rgba(230, 227, 57, 0.445);
+  //   top: 10px;
+  //   left: 0;
+  //   border-radius: 45px;
+  //   height: 90px;
+  //   width: 90px;
+  // }
 
 
   div#tools_icons {
@@ -52,14 +52,14 @@ div#tools {
       width:60px;
     }
   
-    &::before {
-      background-color: rgba(245, 96, 237, 0.445);
-      top: 0;
-      right: 0;
-      border-radius: 40px;
-      height: 60px;
-      width: 60px;
-    }
+    // &::before {
+    //   // background-color: rgba(245, 96, 237, 0.445);
+    //   top: 0;
+    //   right: 0;
+    //   border-radius: 40px;
+    //   height: 60px;
+    //   width: 60px;
+    // }
   
     // background-color: #09687598;
   
